@@ -127,3 +127,11 @@ http://127.0.0.1:8000
 - Click Generate PDF
 - PDF downloads automatically
 - Open PDF → verify summary tables, ledger, and chart
+
+---
+
+## 🎥 Demo Video (2–4 minutes)
+
+Click the link below to watch the demo video:
+
+🔗 **[Farm Finance Report – Demo Video](https://drive.google.com/file/d/1BPjumdmGTDJdx4fwUe1JHKcLU0cC3R6B/view?usp=sharing)**
