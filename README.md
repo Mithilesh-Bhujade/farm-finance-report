@@ -89,13 +89,16 @@ farm-finance-report/
    ```
 
 ### 2️⃣ Create and activate virtual environment
-- Crate venv ```bash
+- Crate venv
+  ```bash
   python -m venv venv
   ```
-- Activate venv (Windows PowerShell) ```bash
+- Activate venv (Windows PowerShell)
+  ```bash
   .\venv\Scripts\activate
   ```
-- Or activate in Command Prompt (cmd.exe) ```bash
+- Or activate in Command Prompt (cmd.exe)
+  ```bash
   .\venv\Scripts\activate
   ```
 
