@@ -21,7 +21,7 @@ styles.add(ParagraphStyle(name='Center', alignment=1))
 STATIC = Path(__file__).resolve().parent.parent / "static"
 STATIC.mkdir(parents=True, exist_ok=True)
 
-# Acceptable logo filenames (you can put either one in static/)
+# Acceptable logo filenames
 LOGO_CANDIDATES = [STATIC / "gramiq_logo.png", STATIC / "logo.png"]
 
 def _get_logo_path():
@@ -96,29 +96,27 @@ def _header_footer(canvas_obj, doc):
     canvas_obj.saveState()
     width, height = A4
 
-    # Top positions (tweak these if you want more/less spacing)
+    # Top positions
     HEADER_TOP_Y = height - 10 * mm     # top-most y reference
     HEADER_LINE_Y = HEADER_TOP_Y - 6    # main header line (logo/title/timestamp)
     FOOTER_Y = 12 * mm
 
-    # Draw logo left (if exists)
+    # Draw logo left
     logo_path = _get_logo_path()
     if logo_path:
         try:
             img = ImageReader(logo_path)
-            # make logo slightly smaller to avoid collisions
             max_logo_w = 30 * mm
             max_logo_h = 12 * mm
             iw, ih = img.getSize()
             ratio = min(max_logo_w / iw, max_logo_h / ih, 1.0)
             draw_w = iw * ratio
             draw_h = ih * ratio
-            # place near left margin (y centered on HEADER_LINE_Y)
             canvas_obj.drawImage(img, 20 * mm, HEADER_LINE_Y - draw_h / 2, width=draw_w, height=draw_h, mask="auto")
         except Exception:
             pass
 
-    # Build title (use doc.report_title if set; fallback to data fields)
+    # Build title
     title = getattr(doc, "report_title", None)
     if not title and getattr(doc, "data", None):
         d = doc.data
