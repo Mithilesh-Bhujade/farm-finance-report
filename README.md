@@ -45,16 +45,16 @@ The system automatically calculates totals, generates a bar chart, and produces 
 farm-finance-report/
 │
 ├── app/
-│ ├── main.py
-│ ├── chart.py
-│ ├── pdf_generator.py
-│ ├── schemas.py
-│ └── templates/
-│ └── form.html
+│   ├── main.py
+│   ├── chart.py
+│   ├── pdf_generator.py
+│   ├── schemas.py
+│   └── templates/
+│       └── form.html
 │
 ├── static/
-│ ├── logo.png
-│ └── chart.png (auto-generated, ignored in git)
+│   ├── logo.png
+│   └── chart.png   (auto-generated, ignored in git)
 │
 ├── .gitignore
 ├── requirements.txt
