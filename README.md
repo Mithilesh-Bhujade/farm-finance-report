@@ -82,18 +82,30 @@ farm-finance-report/
 
 ### 1️⃣ Clone the repository
  - ```bash
-   git clone https://github.com/<your-username>/farm-finance-report.git```
+   git clone https://github.com/<your-username>/farm-finance-report.git
+   ```
  - ```bash
-   cd farm-finance-report```
+   cd farm-finance-report
+   ```
 
 ### 2️⃣ Create and activate virtual environment
-- Crate venv ```python -m venv venv```
-- Activate venv (Windows PowerShell) ```.\venv\Scripts\activate```
-- Or activate in Command Prompt (cmd.exe) ```.\venv\Scripts\activate```
+- Crate venv ```bash
+  python -m venv venv
+  ```
+- Activate venv (Windows PowerShell) ```bash
+  .\venv\Scripts\activate
+  ```
+- Or activate in Command Prompt (cmd.exe) ```bash
+  .\venv\Scripts\activate
+  ```
 
 ### 3️⃣ Install required packages
- - ```pip install --upgrade pip``` 
- - ```pip install -r requirements.txt```
+ - ```bash
+   pip install --upgrade pip
+   ``` 
+ - ```bash
+   pip install -r requirements.txt
+   ```
 
 ### ▶️ Running the Application
 - Start the FastAPI server:
