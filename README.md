@@ -46,20 +46,20 @@ The system automatically calculates totals, generates a bar chart, and produces 
 farm-finance-report/
 │
 ├── app/
-│   ├── main.py             # FastAPI/Application entry point
-│   ├── chart.py            # Logic for generating financial charts (using Matplotlib/Plotly)
-│   ├── pdf_generator.py    # Logic for compiling data and charts into a PDF report
-│   ├── schemas.py          # Pydantic schemas for data validation and models
+│   ├── main.py    
+│   ├── chart.py 
+│   ├── pdf_generator.py 
+│   ├── schemas.py 
 │   └── templates/
-│       └── form.html       # Jinja2 template for the web form input
+│       └── form.html 
 │
 ├── static/
-│   ├── logo.png            # Application logo or header image
-│   └── chart.png           # (auto-generated, ignored in git) Placeholder for generated chart image
+│   ├── logo.png 
+│   └── chart.png  
 │
-├── .gitignore              # Specifies files to be ignored by Git (e.g., venv, auto-generated files)
-├── requirements.txt        # List of Python dependencies (e.g., FastAPI, Pydantic, ReportLab, Matplotlib)
-└── README.md               # Project documentation (this file)
+├── .gitignore   
+├── requirements.txt  
+└── README.md   
 ```
 
 ---
@@ -93,10 +93,10 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 ### ▶️ Running the Application
-Start the FastAPI server:
+- Start the FastAPI server:
 uvicorn app.main:app --reload
 
-Then open the browser at:
+- Then open the browser at:
 http://127.0.0.1:8000
 
 ### ▶️ Usage Flow
