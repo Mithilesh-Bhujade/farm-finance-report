@@ -41,6 +41,7 @@ The system automatically calculates totals, generates a bar chart, and produces 
 
 ---
 
+```
 ## 📂 Project Structure
 farm-finance-report/
 │
@@ -59,7 +60,7 @@ farm-finance-report/
 ├── .gitignore              # Specifies files to be ignored by Git (e.g., venv, auto-generated files)
 ├── requirements.txt        # List of Python dependencies (e.g., FastAPI, Pydantic, ReportLab, Matplotlib)
 └── README.md               # Project documentation (this file)
-
+```
 
 ---
 
