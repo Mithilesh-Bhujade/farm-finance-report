@@ -41,8 +41,8 @@ The system automatically calculates totals, generates a bar chart, and produces 
 
 ---
 
-```
 ## 📂 Project Structure
+```
 farm-finance-report/
 │
 ├── app/
