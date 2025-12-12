@@ -99,8 +99,8 @@ Then open the browser at:
 http://127.0.0.1:8000
 
 ### ▶️ Usage Flow
-Fill out the farmer & crop details
-Add expenses & incomes
-Click Generate PDF
-PDF downloads automatically
-Open PDF → verify summary tables, ledger, and chart
+- Fill out the farmer & crop details
+- Add expenses & incomes
+- Click Generate PDF
+- PDF downloads automatically
+- Open PDF → verify summary tables, ledger, and chart
