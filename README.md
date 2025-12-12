@@ -94,10 +94,10 @@ pip install -r requirements.txt
 
 ### ▶️ Running the Application
 - Start the FastAPI server:
-uvicorn app.main:app --reload
+```uvicorn app.main:app --reload```
 
 - Then open the browser at:
-http://127.0.0.1:8000
+```http://127.0.0.1:8000```
 
 ### ▶️ Usage Flow
 - Fill out the farmer & crop details
