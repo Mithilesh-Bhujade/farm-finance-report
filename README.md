@@ -81,8 +81,10 @@ farm-finance-report/
 ## 🛠️ Setup Instructions (Windows)
 
 ### 1️⃣ Clone the repository
- - ```git clone https://github.com/<your-username>/farm-finance-report.git```
- - ```cd farm-finance-report```
+ - ```bash
+ - git clone https://github.com/<your-username>/farm-finance-report.git```
+ - ```bash
+ -  cd farm-finance-report```
 
 ### 2️⃣ Create and activate virtual environment
 - Crate venv ```python -m venv venv```
